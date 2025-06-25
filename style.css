@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #66d45c;
+  color: #333;
+  padding: 30px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #c1440e;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.fact {
+  background-color: #fffdf7;
+  padding: 20px;
+  border-left: 4px solid #c1440e;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 6px;
+}
+
+.fact h2 {
+  margin-top: 0;
+  color: #3e5c35;
+}
+
+.fact p {
+  margin: 0.5em 0 0 0;
+  line-height: 1.5;
+}
